@@ -1,0 +1,410 @@
+/******************/
+/* Styles to override the defaults in the huxley app and its mini-bootstrap file */
+/* Only un-comment a line if you wish to change it. */
+/******************/
+
+/* SPA css */
+#huxley-container {
+	background: linear-gradient(#2B3D4B, #13191E) !important;
+}
+/* #huxley-app .text-primary {color: rgb(255,165,0);} */
+/* #huxley-app .bg-primary {background-color: #007bff;} */
+/* #huxley-app .bg-light {background-color: #f8f9fa;} */
+/* #huxley-app .text-white { color: white; } */
+
+#huxley-app {
+	/* font-family: Avenir, Helvetica, Arial, sans-serif; */
+	font-size: 1.2rem;
+	background-color: #232628;
+	/* color: #2c3e50; */
+	color: white;
+	text-align: justify;
+}
+#huxley-app .view-container {
+	max-width: 1024px;
+	margin: auto;
+}
+
+#huxley-app .mr-2 {
+	margin-right: 0.5rem;
+}
+#huxley-app .btn-block {
+	display: block;
+	width: 100%;
+}
+#huxley-app title {
+	font-size: 2rem;
+}
+#huxley-app p {
+	line-height: 16pt;
+}
+
+/************ Comp List **********************/
+#huxley-app .grid-list>li {
+	width: 32%;
+}
+#huxley-app .competition-list>h3, #huxley-app .drawn-page>h3, #huxley-app h3.title, #huxley-app .title  {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+}
+@media (max-width:720px) {
+	#huxley-app .grid-list>li {
+		width: 49%;
+	}
+}
+@media (max-width:515px) {
+	#huxley-app .grid-list>li {
+		width: 96%;
+	}
+}
+#huxley-app .huxley-card {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	/* height: 400px; */
+	/* margin: 1rem; */
+	position: relative;
+	border-radius: 10px;
+}
+#huxley-app .huxley-card .card-img-top {
+	width: 100%;
+	height: 21rem !important;
+	-o-object-fit: cover;
+	object-fit: cover;
+	background-color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#huxley-app .huxley-card .card-details {
+	position: relative;
+	height: 110px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: #383838;
+	color: white;
+}
+#huxley-app .huxley-card .card-details .card-body {
+	padding: 0;
+	flex-grow: 1;
+	border-top: solid 1px grey;
+	color: white;
+	min-height: 60px;
+}
+#huxley-app .huxley-card .card-title {
+	font-weight: 700;
+	text-align: center;
+	padding: 0px 5px;
+	color: #f7c325;
+}
+#huxley-app .huxley-card .card-details hr {
+	display: none;
+}
+#huxley-app .huxley-card .stats-row {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 15px;
+	/* color: white; */
+	border-top: 1px solid #0005;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.close-date::before {
+	content: "Ends ";
+}
+#huxley-app .view-container .huxley-card .ticket-price {
+	display: block;
+}
+#huxley-app .close-date-wrap {
+	background: #f7c325;
+	/* border-radius: 10px 10px 0px 00px; */
+	position: absolute;
+	width: 100%;
+	top: -24px;
+	font-weight: 500;
+	text-align: center;
+}
+
+/*************** Comp Detail page ***********************/
+#huxley-app .competition-detail {
+	background: white;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+}
+#huxley-app .competition-detail p {
+	text-align: left;
+}
+@media (max-width:576px) {
+	#huxley-app .competition-detail {
+		border-radius: 0;
+	}
+}
+#huxley-app .view-container .ticket-price {
+	display: flex;
+	align-items: center;
+	background: rgba(235,235,235,0.87);
+	color: #2c3e50; 
+	border-radius: 30px;
+	font-weight: bold;
+	padding: 3px 14px 3px 3px;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	bottom:auto;
+	right: auto;
+	border: 0;
+	font-size: 16px;
+}
+#huxley-app .ticket-price i {
+	background-color: #f7c325;
+	border-radius: 50%;
+	padding: 5px;
+	margin-right: 0.5rem;
+}
+
+#huxley-app .competition-detail .right-column>div {
+	background-color: #232628;
+	border-radius: 10px;
+	padding: 1.5rem;
+	padding-bottom: 1px;
+	color: white;
+}
+#huxley-app .competition-detail .right-column>div	.countdown-timer {
+	/* margin-top: 1rem; */
+}
+
+#huxley-app .tickets-left-title {
+	text-transform: capitalize;
+}
+
+#huxley-app .closing-date {
+	font-weight: bold;
+}
+
+#huxley-app .competition-detail .ticket-price, #huxley-app .competition-detail .ticket-price fa-coins {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+/************ DRAWN COMPETITIONS PAGE ***************************/
+
+#huxley-app .drawn-page .winners-list>li {
+	background: white;
+	border-radius: 10px;
+	padding: 1rem;
+	color: black;
+}
+@media (max-width:575px) {
+	#huxley-app .drawn-page .winners-list>li {
+		border-radius: 0px;
+	}
+}
+#huxley-app .drawn-page .winners-list p {
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 16pt;
+}
+#huxley-app .drawn-page .winners-list h4 {
+	text-transform: uppercase;
+	/* color: #f7c325; */
+	font-weight: bold;
+}
+#huxley-app .drawn-page .winner-img {
+	margin: 0 0 0.5rem;
+}
+#huxley-app .load-more {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+#huxley-app .video-thumbnail .fa-circle-play {
+	color: #f7c325;
+}
+#huxley-app .video-thumbnail .icon-overlay {
+	transform: rotate(-3deg);
+}
+
+#huxley-app .video-thumbnail {
+	height: unset !important;
+}
+
+#huxley-app .video-thumbnail, #huxley-app .winner-img {
+	transform: rotate(-3deg);
+    	margin-bottom: 15px;
+	border: 3px solid #f7c325;
+}
+/**************** FAQ PAGE *************************/
+#huxley-app section.faq-question {
+	background-color: white;
+	border-radius: 10px;
+	padding: 1rem;
+	margin: 16px 0;
+	color: black;
+}
+#huxley-app .faq-question h4 {
+	margin: 0;
+}
+#huxley-app .faq-question h4 {
+	margin: 0;
+	max-width: 94%;
+}
+#huxley-app .faq-question p {
+	margin: 1rem 0 0 0;
+}
+#huxley-app .faq-question hr {
+	border: 0; margin: 0;
+	height: 0;
+}
+#huxley-app .faq-question::after {
+    	/* background-color: rgb(255,165,0); */
+    	border-radius: 50%;
+    	width: 25px;
+    	height: 25px;
+    	position: absolute;
+    	right: 20px;
+	top: 15px;
+	content: "\2b";
+	font-family: FontAwesome;
+	display: inline-block;
+	text-decoration: inherit;
+}
+#huxley-app .collapsible-content + huxley-app .faq-question::after {
+	ontent: "\f068";
+}
+/********* Registration Page *****************/
+#huxley-app .registration-page section {
+	background: white;
+	color: black;
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+/********* Challenge Page ********************/
+#huxley-app .challenge-view {
+	/* background: white;
+	color: black;
+	padding: 0 10px 10px 10px;
+	border-radius: 10px; */
+}
+#huxley-app .question-box {
+	background: #f7c325;
+	color: black;
+	border-radius: 10px;
+	border: 0;
+	padding: 2rem;
+}
+#huxley-app .question-box h4 {
+	font-weight: 700;
+	text-align: center;
+}
+#huxley-app .questions {
+	font-weight: 500;
+	font-size: 120%;
+}
+#huxley-app .challenge-view p {
+	text-align: center;
+}
+
+/********* My Account Page *******************/
+#huxley-app .my-account {
+	background: white;
+	color: black;
+	border-radius: 10px;
+	border: 0;
+	padding: 2rem;
+}
+#huxley-app .account-side-menu {
+	background: #EEE;
+	padding: 20px;
+}
+#huxley-app .account-side-menu .nav-item {
+		color: #2c3e50;
+}
+#huxley-app .account-side-menu .nav-item.active {
+	color: #f7c325;
+	border-left: 3px solid #f7c325;
+}
+
+/****************** Wallet - Tranaction Table */
+#huxley-app .transaction-table .debit {
+	background-color: #f8e7e7;
+}
+#huxley-app .transaction-table .credit {
+	background-color: #e7f8e9;
+}
+
+/************* Signed Out page **************************/
+#huxley-app .signed-out {
+	background: white;
+	color: black;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 0 10px;
+}
+/************* Delete account page **************************/
+#huxley-app .delete-account .btn[type=button] {
+	margin-right: 1rem;
+}
+
+/*-----------------------------------------------------*/
+#huxley-app .login-box {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	padding: 2rem;
+	margin-top: 3rem;
+}
+
+/****** Coin count nav bar */
+#huxley-app .coin-nav {
+	margin: 4px 0;
+}
+
+/* Primary Buttons */
+#huxley-app .btn-primary, #huxley-app .btn-secondary {
+	color: white; 
+	background-color: #007bff;
+	border-color: #007bff;
+	border-radius: 100px;
+	text-transform: uppercase;
+}
+#huxley-app .btn-primary:hover {
+	background-color: #0069d9;
+	border-color: #0069d9;  
+}
+#huxley-app .btn-primary:focus{
+	box-shadow: 0 0 0 0.2rem rgba(#007bff, .25);
+}
+#huxley-app .btn-primary:not(:disabled):active {
+	background-color: #0062cc; 
+}
+#huxley-app .btn-primary:disabled:hover {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+/* Secondary Buttons */
+/* #huxley-app .btn-secondary {
+	color: white; 
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+#huxley-app .btn-secondary:hover {
+	background-color: #5a6268;
+	border-color: #5a6268; 
+}
+#huxley-app .btn-secondary:focus{
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(#6c757d, .25);
+}
+#huxley-app .btn-secondary:not(:disabled):active {
+	background-color: #545b62
+}
+#huxley-app .btn-secondary:disabled:hover {
+	background-color: #6c757d;
+	border-color: #6c757d;
+} */
+
