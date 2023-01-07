@@ -270,6 +270,10 @@
 	font-family: FontAwesome;
 	display: inline-block;
 	text-decoration: inherit;
+	-webkit-transition: all 1s linear;
+    	-moz-transition: all 1s linear;
+    	-o-transition: all 1s linear;
+    	transition: all 1s linear;
 }
 
 #huxley-app section.expanded h4::after {
@@ -284,6 +288,10 @@
 	font-family: FontAwesome;
 	display: inline-block;
 	text-decoration: inherit;
+	-webkit-transition: all 1s linear;
+        -moz-transition: all 1s linear;
+        -o-transition: all 1s linear;
+        transition: all 1s linear;
 }
 #huxley-app .faq-question h4::after {
 	animation-duration: 4s;
