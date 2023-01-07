@@ -265,12 +265,12 @@
 	height: 0;
 }
 #huxley-app section.collapsed h4::after, #huxley-app section.expanded h4::after {
-	border-radius: 50%;
 	background: var(--psgrey);
 	color: var(--psorange);
 	text-align: center;
-    	width: 25px;
-    	height: 25px;
+    	width: 30px;
+    	height: 30px;
+	padding: 4px;
 	position: absolute;
     	right: 20px;
 	top: 15px;
@@ -283,11 +283,11 @@
 	text-decoration: inherit;
 }
 #huxley-app section.collapsed h4::after {
-	content: "\276F";
+	content: "+";
 }
 
 #huxley-app section.expanded h4::after {
-	content: "\276F";
+	content: "+";
 	transform: rotate(90deg);
 }
 #huxley-app .faq-question h4::after {
