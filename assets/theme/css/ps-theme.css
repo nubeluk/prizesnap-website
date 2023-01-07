@@ -266,15 +266,10 @@
 }
 #huxley-app section.collapsed h4::after, #huxley-app section.expanded h4::after {
 	border-radius: 500px;
-	background: var(--psgrey);
-	color: var(--psorange);
+    	background: var(--psorange);
 	text-align: center;
-    	width: 30px;
-    	height: 30px;
-	padding: 4px;
 	position: absolute;
     	right: 20px;
-	top: 15px;
 	-webkit-transition: all 0.3s linear;
     	-moz-transition: all 0.3s linear;
     	-o-transition: all 0.3s linear;
@@ -284,14 +279,11 @@
 	text-decoration: inherit;
 }
 #huxley-app section.collapsed h4::after {
-	content: "+";
+	content: "\f055";
 }
-
 #huxley-app section.expanded h4::after {
-	content: "+";
+	content: "\f055";
 	transform: rotate(45deg);
-	color: var(--psgrey);
-	background: none;
 }
 #huxley-app .faq-question h4::after {
 	animation-duration: 2s;
@@ -303,7 +295,6 @@
 	border-radius: 10px;
 	padding: 1rem;
 }
-
 /********* Challenge Page ********************/
 #huxley-app .challenge-view {
 	/* background: white;
