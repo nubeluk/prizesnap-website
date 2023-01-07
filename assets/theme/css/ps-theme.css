@@ -265,6 +265,7 @@
 	height: 0;
 }
 #huxley-app section.collapsed h4::after, #huxley-app section.expanded h4::after {
+	border-radius: 500px;
 	background: var(--psgrey);
 	color: var(--psorange);
 	text-align: center;
@@ -288,7 +289,9 @@
 
 #huxley-app section.expanded h4::after {
 	content: "+";
-	transform: rotate(90deg);
+	transform: rotate(45deg);
+	color: var(--psgrey);
+	background: none;
 }
 #huxley-app .faq-question h4::after {
 	animation-duration: 2s;
