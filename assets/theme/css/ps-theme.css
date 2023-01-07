@@ -258,7 +258,7 @@
 	border: 0; margin: 0;
 	height: 0;
 }
-#huxley-app .faq-question .collapsed::after {
+#huxley-app section.collapsed h4::after {
     	/* background-color: rgb(255,165,0); */
     	border-radius: 50%;
     	width: 25px;
@@ -272,7 +272,7 @@
 	text-decoration: inherit;
 }
 
-#huxley-app .faq-question .expanded::after {
+#huxley-app section.expanded h4::after {
     	/* background-color: rgb(255,165,0); */
     	border-radius: 50%;
     	width: 25px;
@@ -285,7 +285,7 @@
 	display: inline-block;
 	text-decoration: inherit;
 }
-#huxley-app .faq-question::after {
+#huxley-app .faq-question h4::after {
 	animation-duration: 4s;
 }
 /********* Registration Page *****************/
