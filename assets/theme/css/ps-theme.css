@@ -4,8 +4,11 @@
 /******************/
 
 /* SPA css */
-$psorange: #f7c325;
-$psgrey: #232628;
+
+:root {
+	--psorange: #f7c325;
+	--psgrey: #232628;
+}
 
 #huxley-container {
 	background: linear-gradient(#2B3D4B, #13191E) !important;
@@ -263,17 +266,18 @@ $psgrey: #232628;
 }
 #huxley-app section.collapsed h4::after, #huxley-app section.expanded h4::after {
 	border-radius: 50%;
-	background: $psgrey;
-	color: $psorange;
+	background: var(--psgrey);
+	color: var(--psorange);
+	text-align: center;
     	width: 25px;
     	height: 25px;
 	position: absolute;
     	right: 20px;
 	top: 15px;
-	-webkit-transition: all 1s linear;
-    	-moz-transition: all 1s linear;
-    	-o-transition: all 1s linear;
-    	transition: all 1s linear;
+	-webkit-transition: all 0.3s linear;
+    	-moz-transition: all 0.3s linear;
+    	-o-transition: all 0.3s linear;
+    	transition: all 0.3s linear;
 	font-family: FontAwesome;
 	display: inline-block;
 	text-decoration: inherit;
@@ -284,7 +288,7 @@ $psgrey: #232628;
 
 #huxley-app section.expanded h4::after {
 	content: "\276F";
-	rotate: 90deg;
+	transform: rotate(90deg);
 }
 #huxley-app .faq-question h4::after {
 	animation-duration: 2s;
