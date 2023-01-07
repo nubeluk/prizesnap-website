@@ -258,7 +258,7 @@
 	border: 0; margin: 0;
 	height: 0;
 }
-#huxley-app .faq-question::after {
+#huxley-app .faq-question .collapsed::after {
     	/* background-color: rgb(255,165,0); */
     	border-radius: 50%;
     	width: 25px;
@@ -271,8 +271,22 @@
 	display: inline-block;
 	text-decoration: inherit;
 }
-#huxley-app .collapsible-content + huxley-app .faq-question::after {
-	ontent: "\f068";
+
+#huxley-app .faq-question .expanded::after {
+    	/* background-color: rgb(255,165,0); */
+    	border-radius: 50%;
+    	width: 25px;
+    	height: 25px;
+    	position: absolute;
+    	right: 20px;
+	top: 15px;
+	content: "\f068";
+	font-family: FontAwesome;
+	display: inline-block;
+	text-decoration: inherit;
+}
+#huxley-app .faq-question::after {
+	animation-duration: 4s;
 }
 /********* Registration Page *****************/
 #huxley-app .registration-page section {
