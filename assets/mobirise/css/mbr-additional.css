@@ -11417,15 +11417,15 @@ blockquote {
     height: 100px;
   }
 }
-.cid-tsfIz1HB8I {
+.cid-tsgRzwEe1C {
   padding-top: 5rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
-.cid-tsfIz1HB8I .mbr-fallback-image.disabled {
+.cid-tsgRzwEe1C .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tsfIz1HB8I .mbr-fallback-image {
+.cid-tsgRzwEe1C .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -11434,30 +11434,52 @@ blockquote {
   position: absolute;
   top: 0;
 }
-.cid-tsfIz1HB8I .number-wrap {
-  color: #232323;
+.cid-tsgRzwEe1C .number-wrap {
+  color: #555555;
   text-align: center;
 }
-.cid-tsfIz1HB8I .number {
+.cid-tsgRzwEe1C .number {
   color: #f7c325;
 }
-.cid-tsfIz1HB8I .period {
+.cid-tsgRzwEe1C .period {
   display: block;
 }
-.cid-tsfIz1HB8I .dot {
+.cid-tsgRzwEe1C .dot {
   display: none;
 }
 @media (max-width: 767px) {
-  .cid-tsfIz1HB8I .period {
+  .cid-tsgRzwEe1C .period {
     font-size: 0.8rem;
   }
 }
-.cid-tsfIz1HB8I .btn {
+.cid-tsgRzwEe1C .btn {
   height: 100%;
   margin: 0;
 }
-.cid-tsfIz1HB8I .mbr-section-btn {
+.cid-tsgRzwEe1C .mbr-section-btn {
   margin-bottom: 1.2rem;
+}
+.cid-tsgRzwEe1C .icons-menu .soc-item {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.cid-tsgRzwEe1C .icons-menu .soc-item .mbr-iconfont {
+  font-size: 2rem;
+  display: flex;
+  border-radius: 50%;
+  text-align: center;
+  color: #6592e6;
+  border: 2px solid #6592e6;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.3s;
+}
+.cid-tsgRzwEe1C .icons-menu .soc-item .mbr-iconfont:before {
+  padding: 0.6rem;
+}
+.cid-tsgRzwEe1C .icons-menu .soc-item .mbr-iconfont:hover {
+  background-color: #6592e6;
+  color: #ffffff;
 }
 .cid-shXQvUBfuI {
   padding-top: 0rem;
@@ -11552,37 +11574,6 @@ blockquote {
   #custom-html-7k .logo-wrap2 {
     max-width: 50px;
     margin: 8% auto;
-  }
-}
-#custom-html-8q {
-  /* Type valid CSS here */
-}
-#custom-html-8q div {
-  background-color: #232323;
-  text-align: center;
-  padding-bottom: 5px;
-}
-#custom-html-8q a {
-  margin-right: 20px;
-}
-#custom-html-8q a.last {
-  margin-right: 0;
-}
-#custom-html-8q a:hover {
-  text-decoration: none;
-  color: blue;
-}
-@media (max-width: 767px) {
-  #custom-html-8q {
-    height: initial;
-  }
-  #custom-html-8q a {
-    display: block;
-    margin: 0;
-    padding-bottom: 5px;
-  }
-  #custom-html-8q a.last {
-    margin-bottom: 40px;
   }
 }
 .cid-tjkDFDsWNU {
