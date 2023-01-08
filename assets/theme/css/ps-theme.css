@@ -47,10 +47,10 @@
 
 /* SPA Custom Menu */
 
-not:(body.huxley-authenticated .huxley-signin) {
+:not(body.huxley-authenticated) .huxley-signin {
 	display: initial;
 }
-not:(body.huxley-authenticated .huxley-myaccount) {
+:not(body.huxley-authenticated) .huxley-myaccount {
 	display: none;
 }
 
