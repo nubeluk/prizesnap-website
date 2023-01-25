@@ -404,11 +404,11 @@ body.huxley-authenticated .huxley-myaccount {
 	padding: 0.3rem 0 0.3rem 1rem;
 }
 
-#huxley-app .coin-nav .nav-link a {
+#huxley-app .coin-nav .nav-link {
 	color: #232628;
 }
 
-#huxley-app .coin-nav .nav-link a:hover, #huxley-app .coin-nav .nav-link a:focus {
+#huxley-app .coin-nav .nav-link:hover, #huxley-app .coin-nav .nav-link:focus {
 	color: white;
 }
 
