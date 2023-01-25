@@ -412,7 +412,7 @@ body.huxley-authenticated .huxley-myaccount {
 	color: white;
 }
 
-#huxley-app .coin-nav:after {
+#huxley-app .coin-nav .fa-coins:after {
 	content: "\f555";
     	transform: rotate(-30deg);
     	transform-origin: center;
