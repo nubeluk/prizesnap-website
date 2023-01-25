@@ -20,6 +20,7 @@
 
 #huxley-app {
 	/* font-family: Avenir, Helvetica, Arial, sans-serif; */
+	padding: 25px 0px 40px;
 	font-size: 1.2rem;
 	background-color: #232628;
 	/* color: #2c3e50; */
@@ -206,7 +207,7 @@ body.huxley-authenticated .huxley-myaccount {
 	font-weight: bold;
 }
 
-#huxley-app .competition-detail .ticket-price, #huxley-app .competition-detail .ticket-price fa-coins {
+#huxley-app .competition-detail .ticket-price, #huxley-app .competition-detail .ticket-price .fa-coins {
 	font-size: 1.5rem;
 	text-transform: uppercase;
 }
@@ -390,7 +391,47 @@ body.huxley-authenticated .huxley-myaccount {
 
 /****** Coin count nav bar */
 #huxley-app .coin-nav {
-	margin: 4px 0;
+	margin: 0;
+	background: orange;
+    	position: fixed;
+    	top: 109px;
+   	padding: 10px 29px 10px 0px;
+    	text-transform: capitalize;
+    	border-radius: 0px 20px 20px 0px;
+}
+
+#huxley-app .coin-nav .nav-link {
+	padding: 0.3rem 0 0.3rem 1rem;
+}
+
+#huxley-app .coin-nav .nav-link a {
+	color: #232628;
+}
+
+#huxley-app .coin-nav .nav-link a:hover, #huxley-app .coin-nav .nav-link a:focus {
+	color: white;
+}
+
+#huxley-app .coin-nav .fa-coins {
+	content: "\f555";
+    	transform: rotate(30deg);
+    	transform-origin: center;
+    	display: inline-block;
+    	-webkit-transform: rotate(30deg);
+    	-moz-transform: rotate(30deg);
+    	-ms-transform: rotate(30deg);
+    	-o-transform: rotate(30deg);
+}
+
+/****** custom nav bar */
+#custom-html-85 div {
+    background-color: #232628;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 5px solid #f7c325;
+    font-size: 150%;
+    /* color: #232323; */
 }
 
 /* Primary Buttons */
