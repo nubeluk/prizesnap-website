@@ -392,7 +392,7 @@ body.huxley-authenticated .huxley-myaccount {
 /****** Coin count nav bar */
 #huxley-app .coin-nav {
 	margin: 0;
-	background: orange;
+	background: #f7c325;
     	position: fixed;
     	top: 109px;
    	padding: 10px 29px 10px 0px;
@@ -412,7 +412,7 @@ body.huxley-authenticated .huxley-myaccount {
 	color: white;
 }
 
-#huxley-app .coin-nav .fa-coins {
+#huxley-app .coin-nav .fa-coins, #huxley-app .coin-nav .fa-coins:after {
 	content: "\f555";
     	transform: rotate(30deg);
     	transform-origin: center;
