@@ -412,15 +412,19 @@ body.huxley-authenticated .huxley-myaccount {
 	color: white;
 }
 
-#huxley-app .coin-nav .fa-coins, #huxley-app .coin-nav .fa-coins:after {
+#huxley-app .coin-nav:after {
 	content: "\f555";
-    	transform: rotate(30deg);
+    	transform: rotate(-30deg);
     	transform-origin: center;
     	display: inline-block;
-    	-webkit-transform: rotate(30deg);
-    	-moz-transform: rotate(30deg);
-    	-ms-transform: rotate(30deg);
-    	-o-transform: rotate(30deg);
+    	-webkit-transform: rotate(-30deg);
+    	-moz-transform: rotate(-30deg);
+    	-ms-transform: rotate(-30deg);
+    	-o-transform: rotate(-30deg);
+}
+
+#huxley-app .coin-nav .fa-coins:before {
+	display: none;
 }
 
 /****** custom nav bar */
