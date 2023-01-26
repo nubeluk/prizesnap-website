@@ -396,6 +396,7 @@ body.huxley-authenticated .huxley-myaccount {
     	position: fixed;
 	left: -80px;
     	top: 109px;
+	z-index: 10;
    	padding: 10px 29px 10px 0px;
     	text-transform: capitalize;
     	border-radius: 0px 50px 50px 0px;
