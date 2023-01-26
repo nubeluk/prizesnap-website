@@ -394,7 +394,7 @@ body.huxley-authenticated .huxley-myaccount {
 	margin: 0;
 	background: #f7c325;
     	position: fixed;
-	left: -7%;
+	left: -80px;
     	top: 109px;
    	padding: 10px 29px 10px 0px;
     	text-transform: capitalize;
@@ -442,6 +442,8 @@ body.huxley-authenticated .huxley-myaccount {
 	float: right;
 	padding-left: 15px;
     	margin-right: 0;
+	position: relative;
+    	right: -10px;
 }
 
 /****** custom nav bar */
