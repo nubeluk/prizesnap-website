@@ -394,11 +394,16 @@ body.huxley-authenticated .huxley-myaccount {
 	margin: 0;
 	background: #f7c325;
     	position: fixed;
+	left: -7%;
     	top: 109px;
    	padding: 10px 29px 10px 0px;
     	text-transform: capitalize;
-    	border-radius: 0px 20px 20px 0px;
+    	border-radius: 0px 50px 50px 0px;
 }
+#huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
+	left: 0;
+}
+
 
 #huxley-app .coin-nav .nav-link {
 	padding: 0.3rem 0 0.3rem 1rem;
@@ -430,6 +435,8 @@ body.huxley-authenticated .huxley-myaccount {
 
 #huxley-app .coin-nav i {
 	float: right;
+	padding-left: 15px;
+    	margin-right: 0;
 }
 
 /****** custom nav bar */
