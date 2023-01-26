@@ -412,7 +412,7 @@ body.huxley-authenticated .huxley-myaccount {
 	color: white;
 }
 
-#huxley-app .coin-nav .nav-link::after {
+#huxley-app .coin-nav .fa-coins::after {
 	content: "\f555";
     	transform: rotate(-30deg);
     	transform-origin: center;
@@ -424,8 +424,12 @@ body.huxley-authenticated .huxley-myaccount {
 	font-family: "Font Awesome 6 Free";
 }
 
-#huxley-app .coin-nav .fa-coins:before {
+#huxley-app .coin-nav .fa-coins::before {
 	display: none;
+}
+
+#huxley-app .coin-nav i {
+	float: right;
 }
 
 /****** custom nav bar */
