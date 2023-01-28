@@ -360,10 +360,10 @@ body.huxley-authenticated .huxley-myaccount {
 }
 
 /****************** Wallet - Tranaction Table */
-#huxley-app .transaction-table .debit {
+#huxley-app .transaction-table tbody tr.debit {
 	background-color: #f8e7e7;
 }
-#huxley-app .transaction-table .credit {
+#huxley-app .transaction-table tbody tr.credit {
 	background-color: #e7f8e9;
 }
 
