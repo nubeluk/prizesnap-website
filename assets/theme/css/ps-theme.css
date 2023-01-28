@@ -401,6 +401,7 @@ body.huxley-authenticated .huxley-myaccount {
    	padding: 10px 29px 10px 0px;
     	text-transform: uppercase;
     	border-radius: 0px 50px 50px 0px;
+	transition: left 1s ease;
 	animation-duration: 4s;
 	animation-name: bobbing;
 	animation-iteration-count: infinite;
@@ -414,6 +415,7 @@ body.huxley-authenticated .huxley-myaccount {
 }
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
+	left: 0px;
 	animation-duration: 1s;
 	animation-name: slideout;
     	animation-timing-function: ease-in-out;
