@@ -401,10 +401,11 @@ body.huxley-authenticated .huxley-myaccount {
    	padding: 10px 29px 10px 0px;
     	text-transform: capitalize;
     	border-radius: 0px 50px 50px 0px;
-	animation-duration: 2s;
+	animation-duration: 4s;
 	animation-name: bobbing;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
+	animation-fill-mode: both;
 }
 
 @keyframes bobbing {
