@@ -400,12 +400,19 @@ body.huxley-authenticated .huxley-myaccount {
    	padding: 10px 29px 10px 0px;
     	text-transform: capitalize;
     	border-radius: 0px 50px 50px 0px;
-	-webkit-transition: all 0.3s linear;
-    	-moz-transition: all 0.3s linear;
-    	-o-transition: all 0.3s linear;
-    	transition: all 0.3s linear;
 	animation-duration: 2s;
+	animation-name: bobbing;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
+
+@keyframes bobbing {
+	0% {left: -80px;}
+	50% {left: -60px;}
+	75% {left: -70px;}
+	100% {left: -80px;}
+}
+
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
 	left: 0;
 }
