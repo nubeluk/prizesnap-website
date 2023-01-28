@@ -395,7 +395,7 @@ body.huxley-authenticated .huxley-myaccount {
 	background: #f7c325;
     	position: fixed;
 	left: -80px;
-    	top: 109px;
+    	top: 99px;
 	z-index: 10;
    	padding: 10px 29px 10px 0px;
     	text-transform: capitalize;
@@ -403,7 +403,7 @@ body.huxley-authenticated .huxley-myaccount {
 	animation-duration: 2s;
 	animation-name: bobbing;
 	animation-iteration-count: infinite;
-	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
 }
 
 @keyframes bobbing {
@@ -415,6 +415,7 @@ body.huxley-authenticated .huxley-myaccount {
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
 	left: 0;
+	animation-name: finished;
 }
 
 
@@ -465,6 +466,10 @@ body.huxley-authenticated .huxley-myaccount {
     /* color: #232323; */
 }
 
+#share3-4u {
+	padding-top: 0;
+	padding-bottom: 1.8rem;
+}
 /* Primary Buttons */
 #huxley-app .btn-primary, #huxley-app .btn-secondary {
 	color: white; 
