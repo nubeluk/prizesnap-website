@@ -401,7 +401,6 @@ body.huxley-authenticated .huxley-myaccount {
    	padding: 10px 29px 10px 0px;
     	text-transform: uppercase;
     	border-radius: 0px 50px 50px 0px;
-	transition: left 1s ease;
 	animation-duration: 4s;
 	animation-name: bobbing;
 	animation-iteration-count: infinite;
@@ -415,24 +414,16 @@ body.huxley-authenticated .huxley-myaccount {
 }
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
-	left: 0px;
-}
-
-#huxley-app .coin-nav:active {
 	animation-duration: 1s;
-	animation-name: slidein;
+	animation-name: slideout;
     	animation-timing-function: ease-in-out;
 	animation-iteration-count: 1;
 	animation-fill-mode: both;
 }
+
 @keyframes slideout {
 	0% {left: -90px;}
 	100% {left: 0px;}
-}
-
-@keyframes slidein {
-	0% {left: 0px;}
-	100% {left: -90px;}
 }
 
 #huxley-app .coin-nav .nav-link {
