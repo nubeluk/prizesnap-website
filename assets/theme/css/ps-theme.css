@@ -405,6 +405,9 @@ body.huxley-authenticated .huxley-myaccount {
 	animation-name: bobbing;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
+	transition-property: left;
+  	transition-duration: 1s;
+  	transition-delay: 0.5s;
 }
 
 @keyframes bobbing {
@@ -414,11 +417,12 @@ body.huxley-authenticated .huxley-myaccount {
 }
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
-	animation-duration: 1s;
-    	animation-name: finished;
+  	left: 0px;
+	/* animation-duration: 1s;
+	animation-name: finished;
     	animation-timing-function: ease-in-out;
 	animation-iteration-count: 1;
-	animation-fill-mode: both;
+	animation-fill-mode: both; */
 }
 
 @keyframes finished {
