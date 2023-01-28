@@ -419,6 +419,7 @@ body.huxley-authenticated .huxley-myaccount {
     	animation-name: finished;
     	animation-timing-function: ease-in-out;
 	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 
 @keyframes finished {
