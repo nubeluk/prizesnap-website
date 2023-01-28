@@ -416,11 +416,6 @@ body.huxley-authenticated .huxley-myaccount {
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
 	left: 0px;
-	animation-duration: 1s;
-	animation-name: slideout;
-    	animation-timing-function: ease-in-out;
-	animation-iteration-count: 1;
-	animation-fill-mode: both;
 }
 
 #huxley-app .coin-nav:active {
