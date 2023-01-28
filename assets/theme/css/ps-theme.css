@@ -415,15 +415,27 @@ body.huxley-authenticated .huxley-myaccount {
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
 	animation-duration: 1s;
-	animation-name: finished;
+	animation-name: slideout;
     	animation-timing-function: ease-in-out;
 	animation-iteration-count: 1;
-	animation-fill-mode: both; */
+	animation-fill-mode: both;
 }
 
-@keyframes finished {
+#huxley-app .coin-nav:active {
+	animation-duration: 1s;
+	animation-name: slidein;
+    	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+}
+@keyframes slideout {
 	0% {left: -90px;}
 	100% {left: 0px;}
+}
+
+@keyframes slidein {
+	0% {left: 0px;}
+	100% {left: -90px;}
 }
 
 #huxley-app .coin-nav .nav-link {
