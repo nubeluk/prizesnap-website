@@ -395,22 +395,21 @@ body.huxley-authenticated .huxley-myaccount {
 	margin: 0;
 	background: #f7c325;
     	position: fixed;
-	left: -80px;
+	left: -90px;
     	top: 99px;
 	z-index: 10;
    	padding: 10px 29px 10px 0px;
-    	text-transform: capitalize;
+    	text-transform: uppercase;
     	border-radius: 0px 50px 50px 0px;
 	animation-duration: 4s;
 	animation-name: bobbing;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
-	animation-fill-mode: both;
 }
 
 @keyframes bobbing {
 	0% {left: -90px;}
-	50% {left: -60px;}
+	50% {left: -70px;}
 	100% {left: -90px;}
 }
 
@@ -423,6 +422,7 @@ body.huxley-authenticated .huxley-myaccount {
 }
 
 @keyframes finished {
+	0% {left: initial;}
 	100% {left: 0px;}
 }
 
