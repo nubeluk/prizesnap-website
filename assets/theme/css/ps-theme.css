@@ -408,10 +408,8 @@ body.huxley-authenticated .huxley-myaccount {
 }
 
 @keyframes bobbing {
-	0% {left: -80px;}
-	50% {left: -60px;}
-	75% {left: -70px;}
-	100% {left: -80px;}
+	0% {left: -90px;}
+	100% {left: -60px;}
 }
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
