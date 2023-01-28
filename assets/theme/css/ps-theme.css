@@ -414,12 +414,7 @@ body.huxley-authenticated .huxley-myaccount {
 }
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
-	transition-property: left;
-  	transition-duration: 1s;
-  	transition-delay: 0.5s;
-  	left: 0px;
-	animation-play-state: paused;
-	/* animation-duration: 1s;
+	animation-duration: 1s;
 	animation-name: finished;
     	animation-timing-function: ease-in-out;
 	animation-iteration-count: 1;
@@ -427,7 +422,7 @@ body.huxley-authenticated .huxley-myaccount {
 }
 
 @keyframes finished {
-	0% {left: initial;}
+	0% {left: -80px;}
 	100% {left: 0px;}
 }
 
