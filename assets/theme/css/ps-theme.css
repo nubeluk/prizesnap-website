@@ -409,7 +409,7 @@ body.huxley-authenticated .huxley-myaccount {
 
 @keyframes bobbing {
 	0% {left: -90px;}
-	50% {left: -70px;}
+	50% {left: -70px; transform: translateX(-70px);}
 	100% {left: -90px;}
 }
 
@@ -423,7 +423,7 @@ body.huxley-authenticated .huxley-myaccount {
 
 @keyframes finished {
 	0% {left: -80px;}
-	100% {left: 0px;}
+	100% {left: 0px; transform: translateX(0px)}
 }
 
 #huxley-app .coin-nav .nav-link {
