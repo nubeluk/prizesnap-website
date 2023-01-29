@@ -405,7 +405,7 @@ body.huxley-authenticated .huxley-myaccount {
 	animation-name: bobbing;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
-	transition: transform 1s ease-in-out, left ease-in-out;
+	transition: transform 0.5s ease-in-out, left 0.5s ease-in-out;
 }
 
 @keyframes bobbing {
