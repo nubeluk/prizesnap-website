@@ -405,20 +405,23 @@ body.huxley-authenticated .huxley-myaccount {
 	animation-name: bobbing;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
+	transition: transform 1s ease-in-out, left ease-in-out;
 }
 
 @keyframes bobbing {
-	0% {left: -90px;}
-	50% {left: -70px;}
-	100% {left: -90px;}
+	0% {transform: translateX(-40px);}
+	50% {transform: translateX(-30px);}
+	100% {transform: translateX(-40px);}
 }
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
-	animation-duration: 1s;
+	left: 0px;
+	animation-play-state: paused;
+	/* animation-duration: 1s;
 	animation-name: slideout;
     	animation-timing-function: ease-in-out;
 	animation-iteration-count: 1;
-	animation-fill-mode: both;
+	animation-fill-mode: both; */
 }
 
 @keyframes slideout {
