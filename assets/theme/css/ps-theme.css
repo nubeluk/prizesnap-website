@@ -410,13 +410,13 @@ body.huxley-authenticated .huxley-myaccount {
 }
 
 @keyframes bobbing {
-	0% {transform: translateX(0px);}
-	50% {transform: translateX(-15px);}
-	100% {transform: translateX(0px);}
+	0% {transform: translateX(-165px);}
+	50% {transform: translateX(-185px);}
+	100% {transform: translateX(-165px);}
 }
 
 #huxley-app .coin-nav:hover, #huxley-app .coin-nav:focus {
-	left: 0px;
+	left: 40px;
 	animation-play-state: paused;
 	/* animation-duration: 1s;
 	animation-name: slideout;
