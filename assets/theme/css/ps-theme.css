@@ -401,6 +401,7 @@ body.huxley-authenticated .huxley-myaccount {
 	z-index: 10;
    	padding: 10px 29px 10px 0px;
     	text-transform: uppercase;
+	text-align: right;
     	border-radius: 0px 50px 50px 0px;
 	animation-duration: 4s;
 	animation-name: bobbing;
