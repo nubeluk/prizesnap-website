@@ -361,10 +361,10 @@ body.huxley-authenticated .huxley-myaccount {
 
 /****************** Wallet - Tranaction Table */
 #huxley-app .transaction-table tbody tr.debit {
-	background-color: #f8e7e7;
+	background-color: #f8e7e7 !important;
 }
 #huxley-app .transaction-table tbody tr.credit {
-	background-color: #e7f8e9;
+	background-color: #e7f8e9 !important;
 }
 
 /************* Signed Out page **************************/
