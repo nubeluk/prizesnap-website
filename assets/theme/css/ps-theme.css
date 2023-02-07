@@ -391,6 +391,14 @@ body.huxley-authenticated .huxley-myaccount {
 
 /****** Coin count nav bar *****************************/
 
+#coin-nav {
+	display: none;
+}
+
+.huxley-authenticated #coin-nav {
+	display: initial;
+}
+
 #huxley-app .coin-nav {
 	width: 300px;
 	margin: 0;
