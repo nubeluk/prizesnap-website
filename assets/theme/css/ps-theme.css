@@ -309,7 +309,7 @@ body.huxley-authenticated .huxley-myaccount {
 /********* Terms Page *****************/
 #huxley-app .terms-box2 {
 	border-radius: 10px;
-	padding: 10px;
+	padding: 10px !important;
 }
 
 /********* Registration Page *****************/
@@ -327,8 +327,8 @@ body.huxley-authenticated .huxley-myaccount {
 	border-radius: 10px; */
 }
 #huxley-app .question-box {
-	border: 2px solid #f7c325;
-	background: #f7c325;
+	border: 2px solid #f7c325 !important;
+	background: #f7c325 !important;
 	color: black;
 	border-radius: 10px;
 	border: 0;
