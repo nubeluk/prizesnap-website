@@ -345,7 +345,7 @@ body.huxley-authenticated .huxley-myaccount {
 #huxley-app .challenge-view p {
 	text-align: center;
 }
-#huxley-app .challenge-view .hero-banner img {
+#huxley-app .challenge-view .hero-banner img, #huxley-app .competition-entered .hero-banner img {
 	border-radius: 10px;
 }
 
