@@ -306,6 +306,12 @@ body.huxley-authenticated .huxley-myaccount {
 #huxley-app .faq-question h4::after {
 	animation-duration: 2s;
 }
+/********* Terms Page *****************/
+#huxley-app .terms-box2 {
+	border-radius: 10px;
+	padding: 10px;
+}
+
 /********* Registration Page *****************/
 #huxley-app .registration-page section {
 	background: white;
@@ -321,6 +327,7 @@ body.huxley-authenticated .huxley-myaccount {
 	border-radius: 10px; */
 }
 #huxley-app .question-box {
+	border: 2px solid #f7c325;
 	background: #f7c325;
 	color: black;
 	border-radius: 10px;
@@ -337,6 +344,9 @@ body.huxley-authenticated .huxley-myaccount {
 }
 #huxley-app .challenge-view p {
 	text-align: center;
+}
+#huxley-app .challenge-view .hero-banner img {
+	border-radius: 10px;
 }
 
 /********* My Account Page *******************/
