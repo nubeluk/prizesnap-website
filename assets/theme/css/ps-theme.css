@@ -376,6 +376,9 @@ body.huxley-authenticated .huxley-myaccount {
 #huxley-app .transaction-table tbody tr.credit {
 	background-color: #e7f8e9 !important;
 }
+#huxley-app .transaction-table tbody {
+	font-size: 15px;
+}
 
 /************* Signed Out page **************************/
 #huxley-app .signed-out {
