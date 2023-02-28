@@ -49,17 +49,17 @@
 /* SPA Custom Menu */
 
 :not(body.huxley-authenticated) .huxley-signin {
-	display: initial;
+	display: initial !important;
 }
 :not(body.huxley-authenticated) .huxley-myaccount {
-	display: none;
+	display: none !important;
 }
 
 body.huxley-authenticated .huxley-signin {
-	display: none;
+	display: none !important;
 }
 body.huxley-authenticated .huxley-myaccount {
-	display: initial;
+	display: initial !important;
 }
 
 
