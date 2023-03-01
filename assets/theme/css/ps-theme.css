@@ -93,7 +93,7 @@ body.huxley-authenticated .huxley-myaccount {
 }
 #huxley-app .huxley-card .card-img-top {
 	width: 100%;
-	height: 21rem !important;
+	/* height: 21rem !important; I MAY NEED TO GO BACK IN */
 	-o-object-fit: cover;
 	object-fit: cover;
 	background-color: white;
