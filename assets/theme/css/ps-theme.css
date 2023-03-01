@@ -5,7 +5,7 @@
 
 /* REMOVE ME AFTER APP LAUNCH */
 
-#afeatures1-54, #afeatures1-55, #facebook {
+#afeatures1-54, #afeatures1-55, .fb-login-button {
 	display: none !important;
 }
 
