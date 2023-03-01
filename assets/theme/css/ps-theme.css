@@ -369,6 +369,7 @@ body.huxley-authenticated .huxley-myaccount {
 #huxley-app .account-side-menu {
 	background: #EEE;
 	padding: 20px;
+	margin-bottom: 2rem;
 }
 #huxley-app .account-side-menu .nav-item {
 		color: #2c3e50;
