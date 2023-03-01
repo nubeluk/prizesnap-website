@@ -6,7 +6,7 @@
 /* REMOVE ME AFTER APP LAUNCH */
 
 .cid-t9fqseOuh5, .cid-t9frFnf1oO {
-	display: none;
+	display: none !important;
 }
 
 /* SPA css */
