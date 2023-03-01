@@ -3,6 +3,12 @@
 /* Only un-comment a line if you wish to change it. */
 /******************/
 
+/* REMOVE ME AFTER APP LAUNCH */
+
+.cid-t9fqseOuh5, .cid-t9frFnf1oO {
+	display: none;
+}
+
 /* SPA css */
 
 :root {
