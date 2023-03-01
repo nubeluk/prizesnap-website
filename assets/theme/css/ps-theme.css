@@ -5,7 +5,7 @@
 
 /* REMOVE ME AFTER APP LAUNCH */
 
-#afeatures1-54, #afeatures1-55, .fb-login-button {
+#afeatures1-54, #afeatures1-55, .fb-login-button, .fb_iframe_widget {
 	display: none !important;
 }
 
