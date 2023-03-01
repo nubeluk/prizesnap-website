@@ -276,6 +276,7 @@ body.huxley-authenticated .huxley-myaccount {
 	padding: 1rem;
 	margin: 16px 0;
 	color: black;
+	text-align: left;
 }
 #huxley-app .faq-question h4 {
 	margin: 0;
