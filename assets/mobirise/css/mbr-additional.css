@@ -1,11 +1,4 @@
 @charset "UTF-8";
-
-/* REMOVE ME AFTER APP LAUNCH */
-#afeatures1-54, #afeatures1-55 {
-	display: none !important;
-}
-
-
 section {
   background-color: #ffffff;
 }
