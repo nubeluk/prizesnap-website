@@ -324,6 +324,13 @@ body.huxley-authenticated .huxley-myaccount {
 #huxley-app .faq-question h4::after {
 	animation-duration: 2s;
 }
+/***** Accept terms & conditions page *****/
+#huxley-app .accept-terms-section .accept-terms-controls .form-check-inline {
+	text-align: left;
+}
+#huxley-app .accept-terms-section .accept-terms-controls .btn-primary {
+	word-break: normal;
+}
 /********* Terms Page *****************/
 #huxley-app .terms-box2 {
 	border-radius: 10px;
