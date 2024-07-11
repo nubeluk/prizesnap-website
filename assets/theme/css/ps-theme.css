@@ -539,7 +539,7 @@ body.huxley-authenticated .huxley-myaccount {
 	text-transform: uppercase;
 }
 #huxley-app .btn-primary {
-	color: #232323;
+	color: #232323 !important;
 }
 #huxley-app .btn-primary:hover {
 	background-color: #0069d9;
