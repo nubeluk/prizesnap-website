@@ -538,6 +538,9 @@ body.huxley-authenticated .huxley-myaccount {
 	border-radius: 100px;
 	text-transform: uppercase;
 }
+#huxley-app .btn-primary {
+	color: #232323;
+}
 #huxley-app .btn-primary:hover {
 	background-color: #0069d9;
 	border-color: #0069d9;  
