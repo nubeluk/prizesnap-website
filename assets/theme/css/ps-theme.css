@@ -532,14 +532,11 @@ body.huxley-authenticated .huxley-myaccount {
 }
 /* Primary Buttons */
 #huxley-app .btn-primary, #huxley-app .btn-secondary {
-	color: white; 
+	color: #232323 !important; 
 	background-color: #007bff;
 	border-color: #007bff;
 	border-radius: 100px;
 	text-transform: uppercase;
-}
-#huxley-app .btn-primary {
-	color: #232323 !important;
 }
 #huxley-app .btn-twitter {
 	color: white !important;
