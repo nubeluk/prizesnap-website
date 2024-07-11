@@ -541,6 +541,9 @@ body.huxley-authenticated .huxley-myaccount {
 #huxley-app .btn-primary {
 	color: #232323 !important;
 }
+#huxley-app .btn-twitter {
+	color: white !important;
+}
 #huxley-app .btn-primary:hover {
 	background-color: #0069d9;
 	border-color: #0069d9;  
