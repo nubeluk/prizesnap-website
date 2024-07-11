@@ -574,4 +574,8 @@ body.huxley-authenticated .huxley-myaccount {
 	background-color: #6c757d;
 	border-color: #6c757d;
 } */
+/****** smart banner config */
+.smartbanner.smartbanner--android {
+	z-index: 1100;
+}
 
